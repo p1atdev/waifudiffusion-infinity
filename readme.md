@@ -2,7 +2,7 @@
 
 Outpainting with Waifu Diffusion on an infinite canvas.
 
-[![Open In Colab](https://colab.research.google.com/github/p1atdev/waifudiffusion-infinity/blob/master/waifudiffusion_infinity_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/p1atdev/waifudiffusion-infinity/blob/master/waifudiffusion_infinity_colab.ipynb)
 
 Start with init_image (updated demo in Gradio):
 
