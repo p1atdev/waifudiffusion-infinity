@@ -115,14 +115,14 @@ class StableDiffusion:
         self.token = token
         if device == "cuda":
             text2img = StableDiffusionPipeline.from_pretrained(
-                "CompVis/stable-diffusion-v1-4",
+                "hakurei/waifu-diffusion",
                 revision="fp16",
                 torch_dtype=torch.float16,
                 use_auth_token=token,
             ).to(device)
         else:
             text2img = StableDiffusionPipeline.from_pretrained(
-                "CompVis/stable-diffusion-v1-4", use_auth_token=token,
+                "hakurei/waifu-diffusion", use_auth_token=token,
             ).to(device)
         if device == "mps":
             _ = text2img("", num_inference_steps=1)
