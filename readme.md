@@ -1,11 +1,10 @@
-# stablediffusion-infinity
+# waifudiffusion-infinity
 
-Outpainting with Stable Diffusion on an infinite canvas.
+Outpainting with Waifu Diffusion on an infinite canvas.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lkwq007/stablediffusion-infinity/blob/master/stablediffusion_infinity_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/github/p1atdev/waifudiffusion-infinity/blob/master/waifudiffusion_infinity_colab.ipynb)
 
 Start with init_image (updated demo in Gradio):
-
 
 
 
@@ -94,6 +93,8 @@ Watch the log for the url to open in your browser. Choose the one that starts wi
   - The iframe the gradio are in the same origin. For `postMessage` version, check out [gradio-space](https://github.com/lkwq007/stablediffusion-infinity/tree/gradio-space)
 
 ## Credit
+
+The original repo is from https://github.com/lkwq007/stablediffusion-infinity.
 
 The code of `perlin2d.py` is from https://stackoverflow.com/questions/42147776/producing-2d-perlin-noise-with-numpy/42154921#42154921 and is **not** included in the scope of LICENSE used in this repo.
 
